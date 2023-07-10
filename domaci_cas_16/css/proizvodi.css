@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600;700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: "Kumbh Sans", sans-serif;
+}
+
+form {
+	gap: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+input {
+	padding: 5px;
+	text-align: center;
+}
+
+button {
+	padding: 5px 40px;
+	background-color: #589f00;
+	border: 0;
+	color: white;
+	border-radius: 20px;
+	margin-top: 20px;
+	font-weight: 700;
+}
+.insertImage {
+	width: 50px;
+}
+
+.box {
+	height: 600px;
+	width: 400px;
+	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 27px;
+	background: #ededed;
+	box-shadow: 28px 28px 57px #c2c2c2, -28px -28px 57px #ffffff;
+}
+.boxProizvoda {
+	border: 2px solid rgb(110, 109, 109);
+	background-color: #d8d8d8;
+	padding: 20px;
+}
+
+.listaProizvoda {
+	background-color: #589f00;
+	height: 500px;
+	width: 700px;
+}
+
+.imeProizvoda {
+	color: #9f0000;
+	text-decoration: underline;
+	padding-bottom: 40px;
+}
+
+.opisProizvoda {
+	color: #252525;
+}
+.cenaProizvoda {
+	color: #727272;
+	padding: 10px 0;
+}
+
+.stanjeIma {
+	color: #589f00;
+}
+
+.stanjeNema {
+	color: #9f0000;
+	text-decoration: line-through;
+}
+
+.linkProizvoda {
+	color: #589f00;
+}
