@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	background-color: rgb(65, 97, 97);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	flex-direction: column;
+}
+.card {
+	text-align: center;
+	background-color: rgb(80, 114, 114);
+	box-shadow: 15px 15px 30px #034b41, -1px -1px 13px #6ab6a2;
+	padding: 50px;
+	border-radius: 10px;
+}
+.unesite {
+	background-color: rgb(228, 228, 228);
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.porez {
+	display: flex;
+	color: rgb(137, 210, 248);
+	margin-top: 10px;
+	gap: 10px;
+	justify-content: center;
+}
+select {
+	margin-top: 20px;
+	padding: 10px;
+	background-color: rgb(9, 85, 64);
+	border: 0;
+	border-radius: 10px;
+	color: rgb(255, 255, 255);
+}
+
+.button button {
+	margin-top: 10px;
+	background-color: rgb(142, 252, 120);
+	border: 1px solid rgb(35, 54, 2);
+	border-radius: 10px;
+	padding: 10px;
+	color: rgb(35, 54, 2);
+}
